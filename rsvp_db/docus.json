@@ -1,0 +1,5 @@
+{"_id":{"$oid":"5de9ffc4102c45652e0d931d"},"stallid":3,"code":301,"name":"PAT DY PHOTOGRAPHY","prices":"P150,000 - P180,000","image":"patdy_logo.jpg","number":"727-4381","email":"patdyphotography@gmail.com"}
+{"_id":{"$oid":"5de9ffc4102c45652e0d931e"},"stallid":3,"code":302,"name":"BENJIE TIONGCO PHOTOGRAPHY","prices":"P70,000 - P90,000","image":"benjie_logo.jpg","number":"0927-313-5992","email":"info@benjietiongco.com"}
+{"_id":{"$oid":"5de9ffc4102c45652e0d931f"},"stallid":3,"code":303,"name":"NICE PRINT PHOTO","prices":"P20,000 - P40,000","image":"niceprint_logo.jpg","number":"636-5505","email":"inquiry@niceprintphoto.com"}
+{"_id":{"$oid":"5de9ffc4102c45652e0d9320"},"stallid":3,"code":304,"name":"ARTSENSE CREATIVE STUDIA","prices":"P60,000 - P80,000","image":"acs_logo.jpg","number":"0917-311-1936","email":"ccreativesph@gmail.com"}
+{"_id":{"$oid":"5de9ffc4102c45652e0d9321"},"stallid":3,"code":301,"name":"BLISS PHOTOGRAPHY","prices":"P20,000 - P30,000","image":"bliss_logo.jpg","number":"968-2200","email":"MyBlissHD@gmail.com"}

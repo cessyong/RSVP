@@ -1,0 +1,3 @@
+{"_id":{"$oid":"5de9ff58102c45652e0d9310"},"serviceid":1,"name":"VENUES","image":"venues.jpg","description":"Your event can’t happen without the perfect venue to bring it to life!"}
+{"_id":{"$oid":"5de9ff58102c45652e0d9311"},"serviceid":2,"name":"CATERING","image":"catering.jpg","description":"Whether it’s a wedding or a kids birthday party, no event is complete without a delicious food spread!"}
+{"_id":{"$oid":"5de9ff58102c45652e0d9312"},"serviceid":3,"name":"DOCUMENTATION","image":"docu.jpg","description":"Make sure unforgettable memories never fade with exquisite photos and videos!"}

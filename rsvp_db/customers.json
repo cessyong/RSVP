@@ -1,0 +1,6 @@
+{"_id":{"$oid":"5de0a82b9019861a2d7da86a"},"username":"joben@example.com","password":"Ch@ng3m3!","first_name":"Joben","last_name":"Ilagan"}
+{"_id":{"$oid":"5de0a82b9019861a2d7da86b"},"username":"polly@example.com","password":"Ch@ng3m3!","first_name":"Polly","last_name":"Baterna"}
+{"_id":{"$oid":"5de0a82b9019861a2d7da86c"},"username":"rafi@example.com","password":"Ch@ng3m3!","first_name":"Rafi","last_name":"Ko Teh"}
+{"_id":{"$oid":"5de0a82b9019861a2d7da86d"},"username":"dana@example.com","password":"Ch@ng3m3!","first_name":"Dana","last_name":"Li"}
+{"_id":{"$oid":"5de0a82b9019861a2d7da86e"},"username":"ces@example.com","password":"Ch@ng3m3!","first_name":"Ces","last_name":"Ong"}
+{"_id":{"$oid":"5de0a82b9019861a2d7da86f"},"username":"bervi@example.com","password":"Ch@ng3m3!","first_name":"Bervi","last_name":"Tesoro"}

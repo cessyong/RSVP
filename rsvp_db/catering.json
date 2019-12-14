@@ -1,0 +1,5 @@
+{"_id":{"$oid":"5de9ffab102c45652e0d9318"},"stallid":2,"code":201,"name":"GOLDEN CAPE","prices":"P30,000 - P50,000","image":"goldencape_logo.jpg","number":"365-7150","email":"goldencapecatering@gmail.com"}
+{"_id":{"$oid":"5de9ffab102c45652e0d9319"},"stallid":2,"code":202,"name":"BIZU CATERING","prices":"P80,000 - P110,000","image":"bizu_logo.jpg","number":"845-0590","email":"catering-concierge@bizugroupe.com"}
+{"_id":{"$oid":"5de9ffab102c45652e0d931a"},"stallid":2,"code":203,"name":"VERLEO","prices":"P20,000 - P100,000","image":"verleo_logo.jpg","number":"506-3118","email":"verleocatering@gmail.com"}
+{"_id":{"$oid":"5de9ffab102c45652e0d931b"},"stallid":2,"code":204,"name":"TJIOE","prices":"P150,000 - P170,000","image":"tjioe_logo.jpg","number":"854-6600","email":"tjioethecaterer@yahoo.com"}
+{"_id":{"$oid":"5de9ffab102c45652e0d931c"},"stallid":2,"code":205,"name":"CREAMERY","prices":"P70,000 - P90,000","image":"creamery_logo.jpg","number":"8477-8528","email":"creamery.cater@gmail.com"}
