@@ -1,0 +1,28 @@
+{% include "header.html" %}
+
+    <a href='/DOCUMENTATION'><input type="submit" value="Back"></a>
+
+ <img src="/static/images/wavetop.png" style="z-index:-1;position:fixed;left:666px;height:100%">
+<fieldset style="border-style:none;box-shadow:none;background:none;z-index:-666;height:20%"></fieldset>
+    <form action="/addtofaves" method="POST">
+        <fieldset style="height:60%">
+            <img src="static/images/{{docu["image"]}}" style="width:40%;height:70%;object-fit:contain;margin-top:5%;margin-left:5%">
+            <h1 style="margin-left:40%;font-size:28px;margin-top:-21%">{{docu["name"]}}</h1>
+            <div class="h3" style="margin-left:51.5%;font-size:15px;margin-top:-21%"><b>LOCATIONS: </b> {{docu["address"]}} <br><br>
+            {{docu["prices"]}} <br><br>
+            <b>CONTACT</b> <br>
+            {{docu["number"]}} <br>
+            {{docu["email"]}}
+            <br></div>
+            {% if session["user"] is defined %}
+                <input type="hidden" name="code" value="{{code}}">
+                <input type="submit" style="margin-left:40%;margin-top:2%" value="Favorite">
+            {% endif %}
+            <br>
+        </fieldset>
+    </form>
+
+    <a href='/DOCUMENTATION'><input type="submit" style="margin-left:10%" value="Back"></a>
+          
+          
+{% include "footer.html" %}

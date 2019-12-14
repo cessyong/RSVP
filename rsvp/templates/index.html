@@ -1,0 +1,22 @@
+{% include "header.html" %}
+    <table style="border:none;width:0">
+        <tr>
+            <td><img src="/static/images/landing.png" style="z-index:-2;position:absolute;width:606px;height:404px;left:50px;top:215px"></td>
+            <td style="text-transform:none;text-align:left;margin-left:-10%">
+            <span>
+            {% if session["user"] is defined %}
+                <div class="h1" style="position:absolute;height:67px;left:652px;top:318px;">Welcome back, {{ session["user"]["first_name"] }}!</div><br>
+            {% else %}
+                <div class="h1" style="position:absolute;height:67px;left:652px;top:318px;">Welcome to RSVP!</div>
+            {% endif %}
+                <div class="h2" style="width:500px;height:66px;left:420px;top:478px;font-size:18px;font-style:normal;font-family:'AvenirB';"><b>Every important moment deserves to be celebrated.</b><br><br>RSVP is your all-in-one event-planning platform that makes celebrating life’s significant moments a piece of  cake.</div>
+                 <img src="/static/images/wavetop.png" style="z-index:-1;position:fixed;left:666px;height:100%">
+            </span>
+            <a href='/services'><input type="submit" style="left:642px;top:530px;font-size:15px" value="VIEW SERVICES"/></a>
+            </td>
+        </tr>
+    </table>
+
+    <br>
+
+{% include "footer.html" %}

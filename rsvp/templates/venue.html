@@ -1,0 +1,21 @@
+{% include "header.html" %}
+     <div class="h1" style="width:20%;margin-top:7%;margin-left:5%;text-align:center;margin-bottom:40px">VENUES</div>
+  <img src="/static/images/wavetop.png" style="z-index:-1;position:fixed;left:666px;height:100%">
+<fieldset style="border-style:none;box-shadow:none;background:none;z-index:-666;"></fieldset>
+            {% for venue in venue_list %}
+                <fieldset style="margin-bottom:2%">
+                    <img src="static/images/{{venue["image"]}}" style="width:25%;height:70%;object-fit:contain;margin-top:2%;margin-left:1%">
+                    <div class="h2" style="margin-left:22%">{{venue["name"]}}</div>
+                    <br>
+                    <div class="h3" style="margin-left:28.5%">{{venue["prices"]}}</div> 
+                    <br>
+                    <a href="/venuedetails?code={{venue["code"]}}"><input type="submit" style="width:10%;height:2.5%;margin-left:23%" value="Details"></a>
+                    <br>
+                </fieldset>
+
+            {% endfor %}
+    <br>
+    <a href='/services'><input type="submit" style="width:15%;height:3.5%;margin-left:10%;margin-top:-0.5%" value="Back to Services"></a>
+<fieldset style="border-style:none;box-shadow:none;background:none;z-index:-666;height:12%"></fieldset>
+
+{% include "footer.html" %}

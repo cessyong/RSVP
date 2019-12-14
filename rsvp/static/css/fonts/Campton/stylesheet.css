@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'Campton Light DEMO';
+    src: url('Campton-LightDEMO.eot');
+    src: url('Campton-LightDEMO.eot?#iefix') format('embedded-opentype'),
+        url('Campton-LightDEMO.woff2') format('woff2'),
+        url('Campton-LightDEMO.woff') format('woff'),
+        url('Campton-LightDEMO.ttf') format('truetype'),
+        url('Campton-LightDEMO.svg#Campton-LightDEMO') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Campton Book';
+    src: url('Campton-BoldDEMO.eot');
+    src: url('Campton-BoldDEMO.eot?#iefix') format('embedded-opentype'),
+        url('Campton-BoldDEMO.woff2') format('woff2'),
+        url('Campton-BoldDEMO.woff') format('woff'),
+        url('Campton-BoldDEMO.ttf') format('truetype'),
+        url('Campton-BoldDEMO.svg#Campton-BoldDEMO') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
